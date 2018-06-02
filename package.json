@@ -1,0 +1,22 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "My own library",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mestafor/test-library.git"
+  },
+  "keywords": [
+    "lib"
+  ],
+  "author": "AlexM <mestalex@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mestafor/test-library/issues"
+  },
+  "homepage": "https://github.com/Mestafor/test-library#readme"
+}
