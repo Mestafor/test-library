@@ -1,4 +1,5 @@
 'use strict';
+const curry = require('../curry');
 
 function swap(fn) {
     return (arg1, arg2) => { 
@@ -6,4 +7,4 @@ function swap(fn) {
     };
 }
 
-module.exports = swap;
+module.exports = curry(swap);
