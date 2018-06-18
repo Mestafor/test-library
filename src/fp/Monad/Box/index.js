@@ -20,17 +20,17 @@ const Box = x => ({
 });
 Box.of = x => Box(x);
 
-const add = x => y => x + y;
-const sum1 = Box(add).ap(Box(1)).ap(Box(2));
-const sum2 = Box.of(1).map(add).ap(Box(2));
-const res = Box(x => x + 1).ap(Box(2));
-console.log(res, sum1, sum2);
+// const add = x => y => x + y;
+// const sum1 = Box(add).ap(Box(1)).ap(Box(2));
+// const sum2 = Box.of(1).map(add).ap(Box(2));
+// const res = Box(x => x + 1).ap(Box(2));
+// console.log(res, sum1, sum2);
 
-const res2 = LazyBox(() => [1, 2, 3])
-  .map((array) => array.shift() && array)
-  .map((array) => array.shift() && array)
-  .map((array) => {
-    return array;
-  });
+// const res2 = LazyBox(() => [1, 2, 3])
+//   .map((array) => array.shift() && array)
+//   .map((array) => array.shift() && array)
+//   .map((array) => {
+//     return array;
+//   });
 
-console.log(res2);
+// console.log(res2);
