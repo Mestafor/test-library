@@ -1,6 +1,10 @@
 // const Either = Left || Right;
+'use strict';
 
-const Either = x => x != null ? Right(x) : Left(null);
+const Right = require('../Right');
+const Left = require('../Left');
+
+const Either = x => x ? Right(x) : Left(null);
 
 module.exports = Either;
 
