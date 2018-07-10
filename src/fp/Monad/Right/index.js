@@ -1,3 +1,5 @@
+const Left = require('../Left');
+
 const Right = x => ({
   ap: monad => monad.map(x),
   chain: f => f(x),
