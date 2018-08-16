@@ -1,10 +1,9 @@
 {
   "name": "m-library",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "My own library. Only for test. Dont use it.",
   "main": "src/index.js",
   "_spec": "mLibrary",
-  "typings": "./types/index.d.ts",
   "maintainers": [
     {
       "name": "Alex Mestafor",
