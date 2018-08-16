@@ -1,0 +1,1 @@
+declare function prop(prop: string | any[], obj: any): any;
