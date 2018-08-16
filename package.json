@@ -1,8 +1,17 @@
 {
   "name": "m-library",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "My own library. Only for test. Dont use it.",
   "main": "src/index.js",
+  "_spec": "mLibrary",
+  "typings": "./types/index.d.ts",
+  "maintainers": [
+    {
+      "name": "Alex Mestafor",
+      "email": "mestalex@gmail.com",
+      "url": ""
+    }
+  ],
   "scripts": {
     "test": "./node_modules/.bin/jest",
     "test:watch": "./node_modules/.bin/jest -w"

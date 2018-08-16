@@ -1,8 +1,9 @@
 'use strict';
-/**
- * Composition
- */
 
+/**
+ * @param {Function[]}
+ * @return {*}
+ */
 function compose(...fns) {
   return (args) => {
     let result = args;

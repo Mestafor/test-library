@@ -20,7 +20,21 @@ const Left = require('./fp/Monad/Left');
 const Right = require('./fp/Monad/Right');
 const tryCatch = require('./fp/Monad/tryCatch');
 
+const addClass = require('./fp/dom/addClass');
+const addEvent = require('./fp/dom/addEvent');
+const append = require('./fp/dom/append');
+const createElem = require('./fp/dom/createElem');
+const elem = require('./fp/dom/elem');
+const elems = require('./fp/dom/elems');
+const getParentByClass = require('./fp/dom/getParentByClass');
+const hasClass = require('./fp/dom/hasClass');
+const innerHTML = require('./fp/dom/innerHTML');
+const removeClass = require('./fp/dom/removeClass');
+
+// DOM
+
 module.exports = {
+  // Functions
   compose,
   curry,
   is,
@@ -31,11 +45,26 @@ module.exports = {
   swap,
   trace,
 
+  // Object
   prop,
 
+  // Monad
   Maybe,
   Either,
   Left,
   Right,
-  tryCatch
+  tryCatch,
+
+  // DOM
+  addClass,
+  addEvent,
+  append,
+  createElem,
+  elem,
+  elems,
+  getParentByClass,
+  hasClass,
+  innerHTML,
+  removeClass
+
 };
